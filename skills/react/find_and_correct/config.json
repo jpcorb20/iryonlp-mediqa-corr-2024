@@ -1,0 +1,24 @@
+{
+    "schema": 2,
+    "type": "completion",
+    "description": "Find mistake and correct it.",
+    "execution_settings": {
+        "gpt": {
+            "temperature": 0.0,
+            "max_tokens": 512,
+            "number_of_responses": 1
+        }
+    },
+    "input_variables": [
+        {
+            "name": "clinical_note",
+            "description": "Clinical note.",
+            "default": ""
+        },
+        {
+            "name": "search_history",
+            "description": "Search history to add in the prompt.",
+            "default": "[]"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "A ReACT step, which gives an observation, though and finally action.",
+    "execution_settings": {
+        "gpt": {
+            "temperature": 0.0,
+            "max_tokens": 4096,
+            "number_of_responses": 1
+        }
+    },
+    "input_variables": [
+        {
+            "name": "n_turns",
+            "description": "Number of maximum possible searches.",
+            "default": "20"
+        },
+        {
+            "name": "tip",
+            "description": "Tip for good job.",
+            "default": "100"
+        },
+        {
+            "name": "clinical_note",
+            "description": "Clinical note.",
+            "default": ""
+        },
+        {
+            "name": "history",
+            "description": "History of react.",
+            "default": ""
+        }
+    ]
+}

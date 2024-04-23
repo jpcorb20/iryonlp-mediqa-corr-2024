@@ -1,0 +1,39 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "A ReACT step, which gives an observation, though and finally action.",
+    "execution_settings": {
+        "gpt": {
+            "temperature": 0.1,
+            "max_tokens": 1024,
+            "number_of_responses": 1
+        }
+    },
+    "input_variables": [
+        {
+            "name": "tip",
+            "description": "Tip for good job.",
+            "default": "100"
+        },
+        {
+            "name": "clinical_note",
+            "description": "Clinical note.",
+            "default": ""
+        },
+        {
+            "name": "instructions",
+            "description": "medical instructions.",
+            "default": ""
+        },
+        {
+            "name": "memory",
+            "description": "Memory of previous searches.",
+            "default": ""
+        },
+        {
+            "name": "history",
+            "description": "History of react.",
+            "default": ""
+        }
+    ]
+}

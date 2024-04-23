@@ -396,3 +396,21 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+.env
+**/__pycache__/
+.idea
+venv_39
+datasets
+MEDIQA-CORR-2024
+embeddings/
+results
+output_*.txt
+.amlignore*
+*.log
+*.txt
+*.jsonl
+*.csv
+test_results
+compute_*.py
+check_data.py
+annotate_error_type.py
